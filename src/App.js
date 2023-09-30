@@ -1,11 +1,10 @@
-import './App.css';
+import React from 'react'
+import { Home } from './screens/Home';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Music Application</h1>
-    </div>
-  );
+    <div><Home/></div>
+  )
 }
 
-export default App;
+export {App};
