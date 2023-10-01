@@ -2,7 +2,7 @@ import React from 'react';
 
 function Library() {
   return (
-     <div>Library</div>
+     <div className='screen-container'>Library</div>
   )
 }
 
